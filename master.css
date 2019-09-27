@@ -19,6 +19,7 @@ nav {
   height: 100%;
   float: right;
   font-size: 24px;
+  font-family: monospace;
 }
 
 nav ul {
@@ -32,7 +33,7 @@ nav li {
 }
 
 nav li:hover {
-  background-color: #5476cc;
+  background-color: #4c6dd6;
   color: white;
 }
 
@@ -43,16 +44,19 @@ header * {
 }
 
 header {
-  background-color: #6c9ef1;
+  background-color: #3355c1;
+  color: #f1e9e5;
 }
 
 footer {
   text-align: center;
-  background-color: #6c9ef1;
+  background-color: #3355c1;
+  color: #f1e9e5;
 }
 
 #logo {
   height: 37px;
+  font-family: Georgia, serif;
 }
 
 #logo * {
@@ -65,6 +69,14 @@ footer {
   width: 100%;
 }
 
+.calendar {
+  width: 100%;
+  padding-left: 20%;
+}
+
+.calendar iframe {
+  max-width: 35%;
+}
 section {
 
 }
