@@ -57,6 +57,7 @@ footer {
 #logo {
   height: 37px;
   font-family: Georgia, serif;
+  margin-top: 5px;
 }
 
 #logo * {
@@ -67,6 +68,23 @@ footer {
 
 .jumbotron img {
   width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #7893f5;
+  max-height: 800px;
+}
+
+.info {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: #1a225a 1px 1px 5px 1px;
+}
+
+.info h1 {
+  font-size: 36px;
 }
 
 .calendar {
@@ -77,6 +95,18 @@ footer {
 .calendar iframe {
   max-width: 35%;
 }
+
+.slideshow {
+  display: inline;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.slideshow img {
+  width: 30%;
+  max-height: 680px;
+}
+
 section {
 
 }
