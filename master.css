@@ -15,37 +15,18 @@ body {
   margin: 0;
 }
 
-nav {
-  height: 100%;
-  float: right;
-  font-size: 24px;
-  font-family: monospace;
-}
-
-nav ul {
-  padding-right: 40px;
-  padding-top: 10px;
-}
-
-nav li {
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
-nav li:hover {
-  background-color: #4c6dd6;
-  color: white;
-}
-
 header * {
-  margin-top: 0;
-  margin-bottom: 0;
   display: inline-block;
+}
+
+h1 {
+  margin: 0;
 }
 
 header {
   background-color: #3355c1;
   color: #f1e9e5;
+  width: 100%;
 }
 
 footer {
@@ -54,46 +35,63 @@ footer {
   color: #f1e9e5;
 }
 
-#logo {
-  height: 37px;
+.logo {
   font-family: Georgia, serif;
   margin-top: 5px;
 }
 
-#logo * {
-  float: left;
-  margin-left: 5px;
-  max-height: 100%;
+.logo:hover {
+  cursor: pointer;
 }
 
-.jumbotron img {
+.logo h1 {
+  padding-top: 10px;
+  float: right;
+}
+
+nav {
+  padding-right: 5%;
+  float: right;
+  font-size: 32px;
+}
+
+.nav-item {
+  height: 100%;
+  padding: 10px;
+}
+
+.nav-item:hover {
+  background-color: #3c5eca;
+  transition: background 0.3s;
+}
+
+.jumbotron {
+  background-color: lightgray;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: #7893f5;
-  max-height: 800px;
+  height: 800px;
 }
 
 .info {
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 5%;
-  padding: 20px;
-  background-color: white;
-  box-shadow: #1a225a 1px 1px 5px 1px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 15%;
+  text-align: center;
+  color: white;
 }
 
 .info h1 {
-  font-size: 36px;
+  font-size: 64px;
 }
 
 .calendar {
   width: 100%;
-  padding-left: 20%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .calendar iframe {
-  max-width: 35%;
+  width: 45%;
 }
 
 .slideshow {
@@ -107,6 +105,14 @@ footer {
   max-height: 680px;
 }
 
+.parallax {
+  background-image: url(http://bestanimations.com/Nature/Fire/fire-burning-animated-gif-image.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 section {
 
 }
@@ -117,4 +123,9 @@ section {
 
 #social-media {
 
+}
+
+@keyframes scroll {
+  from { padding-top: 10%; }
+  to { padding-top: 0; }
 }

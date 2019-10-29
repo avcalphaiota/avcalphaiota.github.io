@@ -8,35 +8,43 @@
   <title>Alpha Iota Home</title>
 
   <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/">
 
 </head>
 
 <body>
   <header>
 
-    <div id="logo">
-      <img src="img/torch.png" alt="AGS Logo">
+    <div class="logo" onclick="window.location.assign('#home')">
+      <a href="#home"></a>
+      <img src="img/torch.gif" alt="AGS Logo" id="torch">
       <h1>Alpha Iota</h1>
     </div>
 
     <nav>
-      <ul>
-        <li><a href="#">Documents</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
+      <div class="nav-item">
+        <a href="#documents">Documents</a>
+      </div>
+
+      <div class="nav-item">
+        <a href="#events">Events</a>
+      </div>
+
+      <div class="nav-item">
+        <a href="#gallery">Gallery</a>
+      </div>
+
+      <div class="nav-item">
+        <a href="#about">About</a>
+      </div>
     </nav>
   </header>
 
   <section class="jumbotron">
-    <div class="info">
+    <div class="parallax info">
       <h1>ΑΓΣ Alpha Iota</h1>
-      <h2>Meetings on Fridays</h2>
-      <h2>12:30 PM - 1:30 PM in LH 100</h2>
+      <p>Alpha Iota is all about community service and social enrichment.</p>
     </div>
-
-    <img src="img/convention.jpg" alt="MS Walk">
   </section>
 
   <section class="slideshow">
@@ -44,10 +52,8 @@
   </section>
 
   <section class="calendar">
-    <div class="container">
-      <iframe src="https://calendar.google.com/calendar/embed?src=38dq1mrs8t8osj3jlteatr5p9g%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-      <iframe src="https://calendar.google.com/calendar/embed?src=ausostjl1lqmqaqh08nf0u35rk%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
+    <iframe src="https://calendar.google.com/calendar/embed?src=38dq1mrs8t8osj3jlteatr5p9g%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?src=ausostjl1lqmqaqh08nf0u35rk%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   </section>
 
   <footer>&copy 2019 Alpha Iota</footer>
