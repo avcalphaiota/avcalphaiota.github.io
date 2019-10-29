@@ -68,7 +68,6 @@ nav {
 .jumbotron {
   background-color: lightgray;
   width: 100%;
-  height: 800px;
 }
 
 .info {
@@ -99,6 +98,7 @@ nav {
   display: inline;
   width: 100%;
   padding-left: 5%;
+  height: 500px;
 }
 
 .slideshow img {
